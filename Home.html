@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KADO buat kmu</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/ModalKartuUcapan.css" />
+    <link rel="stylesheet" href="./CSS/ModalPhoneVidio.css" />
+    <script src="script.js"></script>
+    <style>
+      /* Pastikan video mengisi seluruh halaman */
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+
+      /* Sesuaikan video agar mengisi seluruh layar */
+      #videoBackground {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+      }
+    </style>
+  </head>
+   Made with love by ihm_frd!
+     <!-- Instagram: @ihm_frd
+     TikTok: @eloquently
+     Email: @gmail.com
+  Thanks to all <3
+  
+  DM ke IG: @ihm_frd apabila masih bingung
+  untuk cara edit scriptnya! -->
+  <body>
+    <video id="videoBackground" loop>
+      <source src="./Media/Background lucu.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <script>
+      var video = document.getElementById("videoBackground");
+
+      // Ketika ada interaksi pengguna (klik), putar video
+      document.body.addEventListener("click", function () {
+        video.play();
+      });
+
+      // Ketika pengguna meninggalkan halaman, jeda video
+      window.onbeforeunload = function () {
+        video.pause();
+      };
+    </script>
+
+    <!-- Back sound End -->
+
+    <section id="home">
+      <div class="container">
+          <a href="https://api.whatsapp.com/send?phone=6283811570179&text=Terima%20Kasih%20Sayang%20(tambahin%20kata2mu%20Disini%20Ndutt)" target="_blank" style="text-decoration: none;">
+            <div class="text" data-splitting="">
+              <h5 style="font-size: 25px; text-align: center; color: #7cd1e0;">By: Mass Firdaus <br> Spesial For My mbull 😋 :</h5>
+             Erla Aulia Saputri 🥳😘🥳
+            </div>
+          </a>
+
+
+        <div class="presents">
+
+            <!-- KADO OREN KIRI -->
+          <button id="openModalBtn1" class="present orange" style="background: transparent; border: transparent">
+            <div class="lid"></div>
+            <div class="box"></div>
+            <div class="bow"></div>
+            <div class="ribbon"></div>
+          </button>
+
+          <!-- Modal 1 Kartu ucapan -->
+          <div id="myModal1" class="modal" style="display: none">
+            <div class="modal-content">
+              <!-- Your birthday card content -->
+
+              <div class="birthdayCard">
+                <div class="cardFront">
+                  <h3 class="happy">HAPPY BIRTHDAY!</h3>
+                  <div class="balloons">
+                    <div class="balloonOne"></div>
+                    <div class="balloonTwo"></div>
+                    <div class="balloonThree"></div>
+                    <div class="balloonFour"></div>
+                  </div>
+                </div>
+                <div class="cardInside">
+                  <b><p class="close" style="font-size: 25px; font: #000">&times;</p></b>
+                  <h3 class="back close">HAPPY BIRTHDAY!</h3>
+                  <p contenteditable="true">Dear my girl friend 😋🥰,</p>
+                  <p contenteditable="true">" Selamat ulang tahun!.  
+                    Terima kasih sudah jadi sosok yang luar biasa dalam hidupku mbull. Semoga semua harapanmu segera jadi kenyataan. 😋🎉🎂"
+                         
+                  .</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+              <!-- KADO TENGAH BIRU -->
+              <button id="openModalPhone" class="present blue" style="background: transparent; border: transparent">
+                <div class="lid"></div>
+                <div class="box"></div>
+                <div class="bow"></div>
+                <div class="ribbon"></div>
+              </button>
+
+              <!-- Modal Phone Video -->
+              <div class="phoneModal" id="phoneModal" style="display: none">
+                <div class="speaker"></div>
+                <div class="screen">
+                  <video class="video-background" autoplay muted loop>
+                    <source src="./Media/AulCore.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <a href="Home.html" class="home-button">X</a>
+              </div>
+
+              
+              
+            
+              <!-- KADO IJO -->
+          <button id="openModalBtn2" class="present green" style="background: transparent; border: transparent">
+            <div class="lid"></div>
+            <div class="box"></div>
+            <div class="bow"></div>
+            <div class="ribbon"></div>
+          </button>
+
+          <!-- Modal 2 Kartu ucapan -->
+          <div id="myModal2" class="modal" style="display: none">
+            <div class="modal-content">
+              <!-- Your birthday card content -->
+
+              <div class="birthdayCard">
+                <div class="cardFront">
+                  <h3 class="happy">HAPPY BIRTHDAY!</h3>
+                  <div class="balloons">
+                    <div class="balloonOne"></div>
+                    <div class="balloonTwo"></div>
+                    <div class="balloonThree"></div>
+                    <div class="balloonFour"></div>
+                  </div>
+                </div>
+                <div class="cardInside">
+                  <b><p class="close" style="font-size: 10px; font: #000">&times;</p></b>
+                  <p contenteditable="true"> Sekali lagi, selamat ulang tahun ya mbull sayang ! 🎉</p>
+                  <p contenteditable="true">
+                    Semoga makin lucu, dan tetep menggemaskan 😤💕. 
+                    <!-- <br>Hari ini kamu spesial. <br> -->
+                    Tapi serius, aku bersyukur banget bisa punya kamu.
+                    ❤️💫🤪<br>
+                    <br> "I LOVE YOU THROUGHOUT THE MULTIVERSE" <br> ❤️🥰🥳
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+                <style>
+                #myModal2 , #myModal1{
+                  display: none;
+                  position: fixed;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  z-index: 9999; /* Atur z-index agar berada di depan elemen lain */
+                }</style>
+              </div>              
+        </div>
+      </div>
+    </section>
+
+    <script>
+
+       // Get the modal Kartu ucapan 1
+       var cardModal1 = document.getElementById("myModal1");
+      var openCardModalBtn1 = document.getElementById("openModalBtn1");
+      var closeCardBtn1 = document.querySelector("#myModal1 .close");
+
+      openCardModalBtn1.onclick = function () {
+        cardModal1.style.display = "block";
+      };
+
+      closeCardBtn1.onclick = function () {
+        cardModal1.style.display = "none";
+      };
+
+      // Get the modal Kartu ucapan 2
+      var cardModal2 = document.getElementById("myModal2");
+      var openCardModalBtn2 = document.getElementById("openModalBtn2");
+      var closeCardBtn2 = document.querySelector("#myModal2 .close");
+
+      openCardModalBtn2.onclick = function () {
+        cardModal2.style.display = "block";
+      };
+
+      closeCardBtn2.onclick = function () {
+        cardModal2.style.display = "none";
+      };
+
+      // Get the Phone Video modal
+      var phoneModal = document.getElementById("phoneModal");
+      var openPhoneModalBtn = document.getElementById("openModalPhone");
+      var closePhoneBtn = document.querySelector("#phoneModal .close");
+
+      openPhoneModalBtn.onclick = function () {
+        phoneModal.style.display = "block";
+      };
+
+      closePhoneBtn.onclick = function () {
+        phoneModal.style.display = "none";
+      };
+
+      // Menutup modal saat mengklik di luar modal
+      window.onclick = function (event) {
+        if (event.target !== cardModal && event.target !== openCardModalBtn) {
+          cardModal.style.display = "none";
+        }
+        if (event.target !== phoneModal && event.target !== openPhoneModalBtn) {
+          phoneModal.style.display = "none";
+        }
+      };
+    </script>
+  </body>
+</html>
